@@ -19,7 +19,6 @@ return new class extends Migration
             $table->decimal('latitude', 10, 8);
             $table->decimal('longitude', 11, 8); 
             $table->text('thumbnail')->nullable();
-            $table->text('gambar')->nullable();
             $table->text('jam_operasional')->nullable();
             $table->text('fasilitas')->nullable();
             $table->text('harga_tiket')->nullable();

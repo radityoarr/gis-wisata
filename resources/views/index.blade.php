@@ -172,7 +172,7 @@
                                 ${location.alamat || 'Tidak ada deskripsi.'}<br>
                                 <a href="/detail-wisata/${location.id}" target="_blank">Lihat Detail</a><br>
                                 <button class="btn-rute bg-blue-500 text-white px-4 py-2 rounded mt-2 hover:bg-blue-700" 
-                                onclick="showRoute(${location.latitude}, ${location.longitude})">Lihat Rute</button>
+                                onclick="showRoute(${location.latitude}, ${location.longitude})">Preview Rute</button>
                             </div>
                         </div>
                     `);

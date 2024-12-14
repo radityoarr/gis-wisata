@@ -8,5 +8,5 @@ class Location extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['nama', 'deskripsi','alamat','latitude', 'longitude','thumbnail','gambar','jam_operasional','fasilitas','harga_tiket'];
+    protected $fillable = ['nama', 'deskripsi','alamat','latitude', 'longitude','thumbnail','jam_operasional','fasilitas','harga_tiket'];
 }
